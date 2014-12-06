@@ -1,0 +1,23 @@
+body {
+	background-color: gray;
+}
+
+#timer {
+
+}
+
+#minutes {
+	width: 14px; 
+	border: none; 
+	background-color:none; 
+	font-size: 16px; 
+	font-weight: bold;
+}
+
+#seconds {
+	width: 26px; 
+	border: none; 
+	background-color:none; 
+	font-size: 16px; 
+	font-weight: bold;
+}
