@@ -89,6 +89,7 @@ body {
 #timer {
 	padding-bottom: 30px;
 	font-size: 50px;
+	display: none;
 }
 
 #minutes {

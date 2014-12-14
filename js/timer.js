@@ -1,4 +1,5 @@
-// set minutes
+// Timer code
+// Set minutes
 var mins = 5;
 var secs = mins * 60;
 
@@ -20,6 +21,7 @@ function Decrement() {
     secs--;
     setTimeout('Decrement()',1000);
 }
+
 }
 function getminutes() {
     // minutes is seconds divided by 60, rounded down
@@ -30,3 +32,15 @@ function getseconds() {
     // take mins remaining (as seconds) away from total seconds remaining
     return secs-Math.round(mins *60);
 }
+
+// Start Button code that starts the timer
+var button = document.getElementById('start_button');
+button.addEventListener('click',hidestart,false);
+
+function hidestart() {
+    document.getElementById('timer').style.display = 'block';
+    countdown();
+    this.style.display = 'none';
+}   
+
+
