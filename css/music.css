@@ -1,0 +1,82 @@
+.customTitleSection {
+    margin-bottom: 2em;
+}
+
+/*----------- */
+/*   iFrame   */
+/* ---------- */
+#custom-iframe-container {
+    background-color: white;
+    /* set iFrame container a bit smaller than iFrame and set overflow to "hidden" to remove extra scrollbars inside iFrame */
+    width: 98%; 
+    height: 98%; 
+    overflow: hidden;
+}
+
+iFrame {
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Overwrite JQuery UI Dialog style */
+/*.ui-dialog {
+    z-index: 101000 !important;
+}
+*/
+
+/*------------------- */
+/* Search for artist  */
+/* ------------------ */
+body {
+    padding: 20px;
+}
+
+#search-form, .form-control {
+    margin-bottom: 20px;
+}
+
+.cover {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.cover:hover {
+    cursor: pointer;
+}
+
+.cover.playing {
+    border: 5px solid #e45343;
+}
+
+h1, h4 {
+    color: #5A5A5A;
+}
+
+.btn-primary {
+    background-color: #8AC007;
+    border-color: #7CAD06;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #6E9A06;
+    border-color: #618605;
+}
+.form-control:focus {
+    border-color: #8AC007; 
+}
+.customSearchRow {
+    margin-left: 0; 
+}
+.customSrchItem {
+    padding: 0.2em;
+}
+.customInstructions {
+    font-style: italic;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    color: #8D8D8D;
+}
+

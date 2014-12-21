@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+<style>
+.customTitleSection, p {
+	margin-top: 2em;
+}
+.instructionsSection {
+	width: 70%;
+	margin: 2em;
+	text-align: center;
+}
+.drawingBox {
+	text-align: center;
+	margin-top: 2em;
+}
+</style>
+
+<body>
+
+	<div class="container customTitleSection">
+		<h1 class="text-center">Draw and relax!</h1>
+	</div>	
+
+	<div class="instructionsSection">
+		<p>Instructions......</p>
+	</div>
+
+	<div class="drawingBox">		
+		<script src="js/processing.min.js"></script>
+	    <canvas data-processing-sources="sdraw.pde"></canvas>
+	</div>
+	
+</body>
+</html>
