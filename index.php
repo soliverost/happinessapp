@@ -3,7 +3,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Welcome to Happiness</title>
+    <title>Bliss</title>
     <meta name="description" content"">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
@@ -18,57 +18,47 @@
 
 <body>
 	<div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
+			
+		<div class="site-wrapper-inner">
+			<div class="inner" style="background-color: #3333FF;">
+			<nav style="margin-bottom: 40px;">
+			<h3 class="mastheader-brand" style="font-size:35px; font-weight:bold; font-family:sans-serif">Bliss</h3>
+			
+				<ul class="nav mastheader-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="music.html">Music</a></li>
+					<li><a href="meditation.html">Meditation</a></li>
+					<li><a href="drawing.html">Drawing</a></li>
+				</ul>
+             </nav>
+			</div>
         <div class="site-container">
 
           
           <div class="mastheader clearfix">
-            <div class="inner">
-              <h3 class="mastheader-brand">Welcome to Happiness</h3>
-              <nav>
-                <ul class="nav mastheader-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
+            
           </div>
       
 
-          <div class="inner cover">
-            <!--<h1 class="cover-heading">Title?</h1>-->
-            <p class="lead" style = "margin-bottom:50px;">
+			<div class="inner cover" style">
+				<!--<h1 class="cover-heading">Title?</h1>-->
+				<p class="lead" style = "margin-top:150px; color: #000; font-size: 32px; font-family: cursive; font-style: italic; display: none;">
 				<script>
-					lines();
+					$( '.lead' ).fadeIn( 1500, lines()); //ensure element is set to display: none for this to work!
 				</script>
+				</p>
 				
-			</p>
-
-            <p class="lead">
-              <a href="music.html" class="btn btn-lg btn-default" id="start_button">Music</a>
-			        <a href="meditation.html" class="btn btn-lg btn-default" id="start_button">Meditation</a>
-			        <a href="drawing.html" class="btn btn-lg btn-default" id="start_button">Drawing</a>
-            </p>
-
-            <div id="timer">
-			    <input id="minutes"> : <input id="seconds">
 			</div>
-
-          </div>
-		  <!--
-          <div class="mastfooter">
-            <div class="inner">
-              <p>Happiness App</p>
-            </div>
-          </div>
-		  -->
+			
         </div>
 
       </div>
-
+	
     </div>
-
+	<div class="site-footer">
+            
+			</div>
+			
 </body>
 </html>
