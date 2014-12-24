@@ -26,7 +26,7 @@
 			
 				<ul class="nav mastheader-nav">
 					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
+					<li><a href="about.html">About</a></li>
 					<li><a href="music.html">Music</a></li>
 					<li><a href="meditation.html">Meditation</a></li>
 					<li><a href="drawing.html">Drawing</a></li>
@@ -37,12 +37,9 @@
 
           
           <div class="mastheader clearfix">
-            
           </div>
-      
 
-			<div class="inner cover" style">
-				<!--<h1 class="cover-heading">Title?</h1>-->
+			<div class="inner cover">
 				<p class="lead" style = "margin-top:150px; padding: 30px; background-color: #E6F0FF; color: #000; font-size: 32px; font-family: cursive; font-style: italic; display: none;">
 				<script>
 					$( '.lead' ).fadeIn( 1500, lines()); //ensure element is set to display: none for this to work!
