@@ -1,9 +1,10 @@
 // Timer code
 // Set minutes
-var mins = 2;
+var mins = 5;
 var secs = mins * 60;
 
 var snd = new Audio("media/bells.wav");
+var msc = new Audio("media/meditationsound.wav");
 
 
 function countdown() {
@@ -32,6 +33,7 @@ function Decrement() {
 
         if(secs === 0 && mins === 0) {
             snd.play();
+            msc.pause();
             return;
         }
 
@@ -59,6 +61,7 @@ button.addEventListener('click',hidestart,false);
 function hidestart() {
     document.getElementById('timer').style.display = 'block';
     countdown();
+    msc.play();
     this.style.display = 'none';
 }   
 
