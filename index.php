@@ -26,10 +26,10 @@
 			
 				<ul class="nav mastheader-nav">
 					<li class="active"><a href="#">Home</a></li>
-					<li><a href="about.html">About</a></li>
 					<li><a href="music.html">Music</a></li>
 					<li><a href="meditation.html">Meditation</a></li>
 					<li><a href="drawing.html">Drawing</a></li>
+					<li><a href="about.html">About</a></li>
 				</ul>
              </nav>
 			</div>
