@@ -55,13 +55,13 @@ h1, h4 {
 }
 
 .btn-primary {
-    background-color: #8AC007;
-    border-color: #7CAD06;
+    background-color: #3333FF;
+    border-color: #2E2EE6;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-    background-color: #6E9A06;
-    border-color: #618605;
+    background-color: #2929CC;
+    border-color: #2929CC;
 }
 .form-control:focus {
     border-color: #8AC007; 

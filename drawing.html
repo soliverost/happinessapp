@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  
 </head>
 <style>
 .customTitleSection, p {
@@ -14,24 +16,50 @@
 .drawingBox {
 	text-align: center;
 	margin-top: 2em;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #3333FF;
+}
+
+h1, h4 {
+    color: #5A5A5A;
 }
 </style>
 
 <body>
 
-	<div class="container customTitleSection">
-		<h1 class="text-center">Draw and relax!</h1>
+	<div class="site-wrapper">			
+		<div class="site-wrapper-inner">	
+			<div class="inner_new">
+				<nav style="margin-bottom: 40px;">
+					<h3 class="mastheader-brand" style="font-size:35px; font-weight:bold; font-family:sans-serif">Bliss</h3>
+					
+						<ul class="nav mastheader-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="music.html">Music</a></li>
+							<li><a href="meditation.html">Meditation</a></li>
+							<li class="active"><a href="drawing.html">Drawing</a></li>
+							<li><a href="about.html">About</a></li>
+						</ul>
+		         </nav>
+			</div>
+			<div class="container customTitleSection">
+				<h1 class="text-center">Draw and relax!</h1>
+			</div>	
+
+			<div class="instructionsSection">
+				<p>Press 'b' to change to a random background and 'c' for a random brush color. </p>
+				<p>	Controls are at the bottom of the page. </p>
+			</div>
+
+			<div class="drawingBox">		
+				<script src="js/processing.min.js"></script>
+			    <canvas data-processing-sources="sdraw.pde"></canvas>
+			</div> 
+		</div>
 	</div>	
-
-	<div class="instructionsSection">
-		<p>Press 'b' to change to a random background and 'c' for a random brush color. </p>
-		<p>	Controls are at the bottom of the page. </p>
-	</div>
-
-	<div class="drawingBox">		
-		<script src="js/processing.min.js"></script>
-	    <canvas data-processing-sources="sdraw.pde"></canvas>
-	</div>
+	<div class="site-footer">
+    </div>	
 	
 </body>
 </html>

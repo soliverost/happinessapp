@@ -16,11 +16,10 @@ a:hover {
 html,
 body {
 /*  height: 100%; */
-  background-color: #FFFFFF;
+/*  background-color: #FFFFFF; */
 }
 body {
-  color: #fff;
-  text-align: center;
+/*  color: #fff; */
   text-shadow: 0 1px 3px rgba(0,0,0,.25);
 }
 
@@ -50,6 +49,8 @@ body {
 .mastheader-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #fff;
+
 }
 
 .mastheader-nav > li {
@@ -94,6 +95,7 @@ body {
   font-style: italic; 
   display: none;
   padding: 20px;
+  text-align: center;
 }
 
 .cover .btn-lg {
