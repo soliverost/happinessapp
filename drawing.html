@@ -5,9 +5,11 @@
   
 </head>
 <style>
+/*
 .customTitleSection, p {
 	margin-top: 2em;
-}
+}*/
+
 .instructionsSection {
 	width: 70%;
 	margin: 2em;
@@ -16,9 +18,16 @@
 .drawingBox {
 	text-align: center;
 	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4em;
+	width: 70%;
+}
+
+.innerBox {
 	border-width: 5px;
 	border-style: solid;
-	border-color: #3333FF;
+	border-color: #3333FF;	
 }
 
 h1, h4 {
@@ -54,8 +63,8 @@ h1, h4 {
 
 			<div class="drawingBox">		
 				<script src="js/processing.min.js"></script>
-			    <canvas data-processing-sources="sdraw.pde"></canvas>
-			</div> 
+			    <canvas data-processing-sources="sdraw.pde" class="innerBox"></canvas>
+			</div>  
 		</div>
 	</div>	
 	<div class="site-footer">
