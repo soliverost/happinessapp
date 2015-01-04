@@ -98,6 +98,16 @@ body {
   text-align: center;
 }
 
+.meditationInstructions { 
+  background-color: #fff; 
+  color: #000; 
+  font-size: 32px; 
+  font-family: cursive; 
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+}
+
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
@@ -133,13 +143,14 @@ body {
 	padding-bottom: 30px;
 	font-size: 50px;
 	display: none;
+  text-align: center;
 }
 
 #minutes {
 	width: 30px; 
 	border: none; 
-	background-color:#333; 
-	color: #fff;
+	background-color:#fff; 
+	color: #333;
 	font-size: 50px; 
 	font-weight: bold;
 }
@@ -147,8 +158,8 @@ body {
 #seconds {
 	width: 60px; 
 	border: none; 
-	background-color:#333; 
-	color: #fff;
+  background-color:#fff; 
+  color: #333;
 	font-size: 50px; 
 	font-weight: bold;
 }
