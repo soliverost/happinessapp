@@ -54,15 +54,6 @@ h1, h4 {
     color: #5A5A5A;
 }
 
-.btn-primary {
-    background-color: #3333FF;
-    border-color: #2E2EE6;
-}
-
-.btn-primary:hover, .btn-primary:focus {
-    background-color: #2929CC;
-    border-color: #2929CC;
-}
 .form-control:focus {
     border-color: #8AC007; 
 }
@@ -78,4 +69,5 @@ h1, h4 {
     padding-top: 0.5em;
     color: #8D8D8D;
 }
+
 
