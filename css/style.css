@@ -101,7 +101,7 @@ body {
 .meditationInstructions { 
   background-color: #fff; 
   color: #000; 
-  font-size: 32px; 
+  font-size: 28px; 
   font-family: cursive; 
   font-style: italic;
   padding: 20px;
@@ -164,6 +164,7 @@ body {
 	font-size: 50px;
 	display: none;
   text-align: center;
+  margin-top: -60px;
 }
 
 #minutes {
